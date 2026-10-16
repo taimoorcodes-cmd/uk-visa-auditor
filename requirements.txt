@@ -1,0 +1,15 @@
+streamlit
+pandas
+openai
+python-dotenv
+langgraph
+pdfplumber
+pytesseract
+pdf2image
+Pillow
+mrz
+pydantic
+rapidfuzz
+reportlab
+requests
+beautifulsoup4

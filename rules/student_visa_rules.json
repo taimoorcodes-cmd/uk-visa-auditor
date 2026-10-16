@@ -1,0 +1,35 @@
+{
+  "visa_type": "UK Student Visa",
+  "version": "1.0",
+  "last_updated": "2026-10-16",
+  "sources": {
+    "funds": "https://www.gov.uk/student-visa/money",
+    "documents": "https://www.gov.uk/student-visa/documents",
+    "apply": "https://www.gov.uk/student-visa/apply"
+  },
+  "financial_rules": {
+    "holding_period_days": 28,
+    "statement_validity_days": 31,
+    "living_costs_per_month_gbp_outside_london": 1171,
+    "living_costs_per_month_gbp_london": 1529,
+    "living_costs_months": 9
+  },
+  "rules": [
+    {
+      "id": "FUNDS_CHECK",
+      "title": "Funds held for 28 days + sufficient amount",
+      "severity": "critical",
+      "check": "funds_full_check",
+      "source_url": "https://www.gov.uk/student-visa/money",
+      "message_en": "Your balance must be at or above the required amount for 28 consecutive days, ending within 31 days of application."
+    },
+    {
+      "id": "NAME_MATCH",
+      "title": "Name matches across documents",
+      "severity": "critical",
+      "check": "name_fuzzy_match",
+      "source_url": "https://www.gov.uk/student-visa/documents",
+      "message_en": "Your name must match across all documents."
+    }
+  ]
+}
