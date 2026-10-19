@@ -3,7 +3,7 @@
 An AI-powered document checker for Pakistani students applying for UK Student Visas. Built to reduce refusal rates by pre-auditing documents before submission.
 
 ## 🚀 Live Demo
- [Click here to try the app](https://your-app-name.streamlit.app)
+ **Live Demo:** *(Coming soon)*
 
 ## ✨ Features
 - **3D Glassmorphism UI:** Cinematic dark theme with rotating 3D elements.
