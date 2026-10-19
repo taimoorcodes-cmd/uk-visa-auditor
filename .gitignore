@@ -12,3 +12,7 @@ data/uploads/
 data/sample_docs/
 .DS_Store
 Thumbs.db
+debug_audit.py
+setup_v2.py
+data/sample_docs/
+data/auditor.db

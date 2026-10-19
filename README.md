@@ -1,35 +1,28 @@
-# UK Visa Auditor
+# 🇬🇧 UK Visa Auditor AI Agent
 
-AI-assisted document checker for UK Student Visa applicants in Pakistan.
+An AI-powered document checker for Pakistani students applying for UK Student Visas. Built to reduce refusal rates by pre-auditing documents before submission.
 
-## ⚠️ Disclaimer
+## 🚀 Live Demo
+*(Add your Streamlit Cloud link here after deployment)*
 
-This is an informational and document-checking tool. It does NOT provide 
-immigration advice. It does NOT guarantee visa approval. Always verify 
-requirements on the official UK government website (gov.uk).
+## ✨ Features
+- **3D Glassmorphism UI:** Cinematic dark theme with rotating 3D elements.
+- **AI Chat Assistant:** Answers questions about document requirements using official gov.uk links.
+- **Smart Document Parsing:** Extracts data from Passport (MRZ), CAS, and Bank Statements (PDF).
+- **28-Day Funds Engine:** Calculates exact GBP/PKR requirements and verifies the 28-day consecutive balance rule.
+- **OCR Support:** Reads both digital PDFs and scanned images (JPG/PNG).
+- **Privacy First:** Uploaded files are deleted immediately after processing.
+- **Freemium Model:** Includes SQLite database for user history, limits, and Easypaisa payment tracking.
 
-## Status
+## 🛠️ Tech Stack
+- **Frontend:** Streamlit + Custom HTML/CSS (3D UI)
+- **AI Orchestration:** LangGraph
+- **LLM Provider:** OpenRouter (Currently configured for free models)
+- **PDF Parsing:** pdfplumber, mrz, pytesseract
+- **Database:** SQLite
+- **Backend:** Python, JSON rules engine, RapidFuzz
 
-V1 in progress — Week 1
-
-## Features (V1)
-
-- Upload passport, CAS, and bank statement
-- AI extracts data from PDFs
-- Rules engine checks against UK Home Office rules
-- Readiness score (0-100)
-- Friendly AI narration
-- Official gov.uk links
-
-## Tech Stack
-
-- Streamlit (UI)
-- LangGraph (AI workflow)
-- OpenRouter (LLM)
-- pdfplumber + mrz (PDF parsing)
-- Python + JSON (rules engine)
-
-## Author
-
-Taimoor Ghalib
-https://github.com/taimoorcodes-cmd
+## 🚀 How to Run Locally
+1. Clone the repo: `git clone https://github.com/taimoorcodes-cmd/uk-visa-auditor.git`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Create a `.env` file and add your OpenRouter API key:
