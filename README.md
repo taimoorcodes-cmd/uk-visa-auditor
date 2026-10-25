@@ -3,7 +3,7 @@
 An AI-powered document checker for Pakistani students applying for UK Student Visas. Built to reduce refusal rates by pre-auditing documents before submission.
 
 ## 🚀 Live Demo
- **Live Demo:** [Click here to try the app](https://uk-visa-auditor-pynwtdvgaveabdq6ox3kms.streamlit.app)
+**🎥 Video Demo:** [Watch the full demo here](https://youtu.be/JNlqCItdddg)
 
 ## ✨ Features
 - **3D Glassmorphism UI:** Cinematic dark theme with rotating 3D elements.
